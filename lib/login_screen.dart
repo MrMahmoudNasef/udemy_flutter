@@ -87,11 +87,6 @@ class LoginScreen extends StatelessWidget {
                 },
                 style: ButtonStyle(
                   backgroundColor: WidgetStateProperty.all(Colors.blue),
-                  shape: WidgetStateProperty.all(
-                    RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20.0),
-                    ),
-                  ),
                 ),
                 child: Text('Login', style: TextStyle(color: Colors.white)),
               ),
