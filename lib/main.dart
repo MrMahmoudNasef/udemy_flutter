@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'counter_screen.dart';
 import 'home_screen.dart';
 import 'login_screen.dart';
 
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       debugShowCheckedModeBanner: false,
-      home: LoginScreen (),
+      home: CounterScreen (),
     );
   }
 }
