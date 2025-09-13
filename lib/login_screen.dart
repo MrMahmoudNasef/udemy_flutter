@@ -102,7 +102,7 @@ class LoginScreen extends StatelessWidget {
               children: [
                 Text('Don\`t have an account?'),
                 TextButton(onPressed: () {
-                  print('Register Now');
+                  print('RegisterNow');
                 }, child: Text('Register Now')),
               ],
             ),
